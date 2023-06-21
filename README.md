@@ -9,10 +9,10 @@
 설정에 따라 일반적인 Transformer Adversarial AutoEncoder (TAAE) 그리고 문장의 단어들에 노이즈를 추가하는 Denosing Transformer Adversarial AutoEncoder (DTAAE)까지 구축이 가능하며
 성능은 아래와 같습니다.
 
-<p align="center"><img width=800 src="TAAE/img/TAAE_evaluation_metrics2.png"></p>
+<p align="center"><img width=300 src="TAAE/img/TAAE_evaluation_metrics.png"></p>
 
 모델이 학습되고 나면, 아래 그림과 같이 오토인코더 모델로 압축한 latent representation을 사용하여 다시 원본 문장과 유사하게 복원이 가능합니다.
-<p align="center"><img width=800 src="TAAE/img/TAAE_reconstruction.png"></p>
+<p align="center"><img width=500 src="TAAE/img/TAAE_reconstruction.png"></p>
 
 기존 DAAE 논문과 코드는 아래와 같습니다.
 [Educating Text Autoencoders: Latent Representation Guidance via Denoising](https://arxiv.org/abs/1905.12777)  
