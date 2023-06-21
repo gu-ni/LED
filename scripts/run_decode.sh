@@ -1,0 +1,1 @@
+python -u run_decode.py --model_dir ../trained_diffuseq --seed 123 --split test
